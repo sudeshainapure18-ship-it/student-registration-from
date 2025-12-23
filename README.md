@@ -21,6 +21,9 @@ The application allows users to register by entering their personal details, whi
 
 ## 🏗️ Project Architecture
 
+![9 photo](https://github.com/user-attachments/assets/a469f2d4-03ae-45f2-8f49-5d48eb15445b)
+
+
 
 
 ![](/photos/9%20photo.jpeg)
@@ -46,7 +49,8 @@ The application allows users to register by entering their personal details, whi
   * HTTP (Port 80)
   * SSH (Port 22)
 
-![](photos/1%20photo.jpeg)
+![1 photo](https://github.com/user-attachments/assets/e0360e2e-b0df-4fa9-a2e4-84743f1da300)
+
 
 ---
 
@@ -78,10 +82,12 @@ sudo systemctl enable nginx mariadb php-fpm
 * Form uses `POST` method and sends data to `submit.php`
 
 ### * signup.html
-![](photos/2%20photo.jpeg)
+![2 photo](https://github.com/user-attachments/assets/f8839c84-661b-4725-aa8c-7393f314b842)
+
 
 ### * submit.php
-![](photos/3%20photo.jpeg)
+![3 photo](https://github.com/user-attachments/assets/3ef2625c-0b23-451c-b5be-d95c9964df5a)
+
 ---
 
 ### 4️⃣ PHP Backend Processing
@@ -112,7 +118,8 @@ CREATE TABLE students (
   gender VARCHAR(10)
 );
 ```
-![](photos/4%20photo.jpeg)
+![4 photo](https://github.com/user-attachments/assets/48867ccb-40cc-4a51-bd42-8627a2f0a9e8)
+
 
 ---
 
@@ -123,14 +130,19 @@ CREATE TABLE students (
   ```
   http://<EC2-Public-IP>/signup.html
   ```
-  ![](photos/6%20photo.jpeg)
+![6 photo](https://github.com/user-attachments/assets/ecc4d5ea-1594-4565-aff2-b3be529e408a)
+
+
 
 * Filled registration form
 
-![](photos/7%20photo.jpeg)
+![7 photo](https://github.com/user-attachments/assets/969eed9f-f53b-40b9-866f-0d08bec28698)
+
+
 * Verified data insertion in MariaDB
 
-![](photos/8%20photo.jpeg)
+![8 photo](https://github.com/user-attachments/assets/cfde9410-9a6e-4fbc-b790-3cbf4aae4070)
+
 
 ---
 
