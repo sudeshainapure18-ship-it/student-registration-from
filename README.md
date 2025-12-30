@@ -1,6 +1,6 @@
 # Student Registration System (Dynamic Web Application)
 
-## 📌 Project Introduction
+## Project Introduction
 
 The **Student Registration System** is a dynamic web-based application developed to collect and store student information using a web form. This project demonstrates the implementation of a simple yet effective **dynamic website** using **Apache Web Server**, **PHP**, and **MariaDB** running on an **AWS EC2 instance**.
 
@@ -8,7 +8,7 @@ The application allows users to register by entering their personal details, whi
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **Cloud Platform:** AWS EC2 (Amazon Linux 2023)
 * **Web Server:** Apache HTTP Server
@@ -39,7 +39,7 @@ The application allows users to register by entering their personal details, whi
 
 ## 🚀 Project Implementation Steps
 
-### 1️⃣ Launch EC2 Instance
+###  Launch EC2 Instance
 
 * Created an EC2 instance named **Student-Registration**
 * Used **Amazon Linux 2023 AMI**
@@ -54,7 +54,7 @@ The application allows users to register by entering their personal details, whi
 
 ---
 
-### 2️⃣ Install LEMP, PHP & MariaDB
+###  Install LEMP, PHP & MariaDB
 
 ```bash
 sudo yum update -y
@@ -70,7 +70,7 @@ sudo systemctl enable nginx mariadb php-fpm
 
 ---
 
-### 3️⃣ Create Student Registration Form
+###  Create Student Registration Form
 
 * Created an HTML form with fields:
 
@@ -90,7 +90,7 @@ sudo systemctl enable nginx mariadb php-fpm
 
 ---
 
-### 4️⃣ PHP Backend Processing
+### PHP Backend Processing
 
 * PHP file (`submit.php`) collects form data
 * Establishes connection with MariaDB
@@ -99,7 +99,7 @@ sudo systemctl enable nginx mariadb php-fpm
 
 ---
 
-### 5️⃣ Database Creation (MariaDB)
+### Database Creation (MariaDB)
 * sudo mysql 
 * set pass- alter user root@localhost by'root'
 
@@ -123,7 +123,7 @@ CREATE TABLE students (
 
 ---
 
-### 7️⃣ Testing
+### Testing
 
 * Accessed application using:
 
@@ -146,7 +146,7 @@ CREATE TABLE students (
 
 ---
 
-## ✅ Project Outcome
+##  Project Outcome
 
 * Successfully created a dynamic registration system
 * User data stored securely in database
@@ -154,13 +154,13 @@ CREATE TABLE students (
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project helped in understanding the complete flow of a **dynamic web application**, from frontend form creation to backend processing and database storage. It also provided hands-on experience with **Linux server management**, **Apache configuration**, **PHP-MySQL integration**, and **cloud deployment using AWS EC2**. This project is well-suited for **freshers** looking to showcase practical skills in web development and cloud computing.
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * Add form validation using JavaScript
 * Implement user authentication
@@ -169,7 +169,8 @@ This project helped in understanding the complete flow of a **dynamic web applic
 
 ---
 
-## 👨‍💻 Author
+## Author
+sudesh ainapure
 
 **Student Registration System Project**
 Developed by a Cloud & Web Development Fresher
