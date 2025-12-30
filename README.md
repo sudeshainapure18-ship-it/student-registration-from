@@ -19,7 +19,7 @@ The application allows users to register by entering their personal details, whi
 
 
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ![9 photo](https://github.com/user-attachments/assets/a469f2d4-03ae-45f2-8f49-5d48eb15445b)
 
@@ -37,7 +37,7 @@ The application allows users to register by entering their personal details, whi
 
 ---
 
-## 🚀 Project Implementation Steps
+##  Project Implementation Steps
 
 ###  Launch EC2 Instance
 
